@@ -1,0 +1,34 @@
+	{% extends "pag1.html" %}
+	{% block cabecalho %}
+	<center>
+		<table>
+			<thead>
+				<tr>
+					<th><img src="{{ url_for('static', filename='img/jordan3.jpg')}}" widht = "500px" height = "200px"></th>
+					<th>
+						<h2></h2>
+						<dl>
+							<dt><h2>Descrição</h2></dt>
+							<dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do<br> eiusmod tempor incididunt ut labore et dolore magna aliqua.</dd>							
+							<dt><h2>Preço</h2></dt>
+							<dt>R$500,00</dt>
+							<br>
+							<span class="botao">
+								<a class="nourdeline" onclick="nt()">COMPRAR</a>
+							</span>		
+						</dl>
+					</th>
+				</tr>
+			</thead>
+		</table>
+		<br>
+		<br>
+		<br>
+		<center>
+			<span class="botao">
+				<a class="nourdeline" href="/">Voltar para o início</a>
+			</span>
+		</center>	
+		
+	{% endblock %}
+	
